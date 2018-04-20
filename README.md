@@ -6,3 +6,4 @@ MVP Base项目
 <br>参考了
 <br> https://www.jianshu.com/p/4fa5d112e087
 <br> https://github.com/wustor/MVP
+<br> https://github.com/Jude95/Beam
