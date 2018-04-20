@@ -1,5 +1,7 @@
 package com.onepeak.mvpdemo;
 
+import android.os.Bundle;
+
 import com.onepeak.mvpdemo.base.mvp.BasePresenter;
 import com.onepeak.mvpdemo.base.mvp.Callback.ViewCallBack;
 
@@ -20,5 +22,15 @@ public class MainPresenter extends BasePresenter{
         }
 
         mBaseModel.getData();
+    }
+
+    @Override
+    protected void onCreate(Bundle savedState){
+        super.onCreate(savedState);
+    }
+
+    @Override
+    protected void onBackPressed(){
+        super.onBackPressed();
     }
 }

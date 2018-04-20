@@ -9,7 +9,7 @@ import java.util.HashMap;
  * Created by OnePeak on 2018/4/19
  *
  */
-public abstract class BasePresenter {
+public abstract class BasePresenter extends Presenter {
 
     protected BaseModel mBaseModel;
     protected HashMap<String, String> paramMap = new HashMap<>();
