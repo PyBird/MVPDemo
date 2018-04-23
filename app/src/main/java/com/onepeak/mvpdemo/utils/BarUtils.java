@@ -3,7 +3,6 @@ package com.onepeak.mvpdemo.utils;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
-import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.os.Build;
 import android.support.v4.view.ViewCompat;
@@ -14,6 +13,11 @@ import android.view.WindowManager;
 
 import com.readystatesoftware.systembartint.SystemBarTintManager;
 
+/**
+ *
+ * Created by OnePeak on 2018/4/20
+ *
+ */
 public class BarUtils {
 
     @SuppressWarnings("ResourceType")
